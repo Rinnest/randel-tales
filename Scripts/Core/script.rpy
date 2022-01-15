@@ -100,7 +100,6 @@ label start:
 label trait:
     scene traitsbg with fade
     "Bunis" "This feature is still a work in progress. More content will be added in the future."
-    "{color=#FF8EF5}Rin" "Though {b}{i}I{/i}{/b} have added some content related to traits with this patch!"
     window hide
     show text "{color=#fff}Choose your character trait.{/color}"
     with dissolve
@@ -658,8 +657,7 @@ label mage2:
             if mc == "":
                 "Bunis" "Ok, so you're going with the default name then?"
                 "Bunis" "You will now be called Jack."
-                "{color=#FF8EF5}Rin" "Screw you Bunis, this is {i}{b}my{/i}{/n} patch. Now the default name is Rin! Mwahahaha!"
-                $ mc = "Rin"
+                $ mc = "Jack"
 
     show talkwam
     hide talksadhappymc
